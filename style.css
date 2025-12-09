@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  transition: background-color 0.5s;
+  padding: 40px;
+}
+
+body.daikichi {
+  background-color: gold;
+}
+
+body.kyou {
+  background-color: #555;
+  color: #ccc;
+}
+
+body.daikyou {
+  background-color: #000;
+  color: #ccc;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
